@@ -1,0 +1,4 @@
+# 核心功能零第三方依赖，仅使用 Python 3.11+ 标准库。
+#
+# 可选 Parquet 导出后端（不装则自动使用 JSONL，export --format parquet 会给出安装指引）：
+pyarrow>=14.0.0 ; python_version >= "3.9"
